@@ -1,1 +1,3 @@
-alert("ola mundo");
+function somar() {
+  console.log("Primeira Aula");
+}
