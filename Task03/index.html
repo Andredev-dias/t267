@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 03 - DS</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Melhoria do HTML</h1>
+    <main>
+      <h2>Calculadora</h2>
+      <label for="num1">Numero 01</label><br />
+      <input type="number" id="num1" /><br /><br />
+      <label for="num2">Numero 02</label><br />
+      <input type="number" id="num2" /><br /><br />
+      <label for="cars">Escolha um operador matemático:</label>
+      <select id="operador">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <br /><br />
+      <button onclick="calcular()">Calcular</button>
+      <h2 id="resultado"></h2>
+    </main>
+  </body>
+</html>
